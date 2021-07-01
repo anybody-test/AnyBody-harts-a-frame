@@ -2,8 +2,8 @@
 From Wikipedia: 
 */
 
-#include "../Templates/fourbar_template.any"
-#include "../Templates/tracer_template.any"
+#include "fourbar_template.any"
+#include "tracer_template.any"
 
 #define DRAWLINE(P1,R,G,B) AnyDrawLine drwline = {  p0 = {0,0,0}; p1 = P1; Line.Thickness = 0.02;GlobalCoord = Off;  Line.RGB = {R,G,B};    };
 
